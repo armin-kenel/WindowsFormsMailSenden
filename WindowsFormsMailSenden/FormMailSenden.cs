@@ -21,10 +21,12 @@ namespace WindowsFormsMailSenden
 
         private void buttonSenden_Click(object sender, EventArgs e)
         {
-            String textMailAdresse = this.textBoxMailAdresse.Text;
-            String textMail = this.textBoxMailText.Text;
+            String textAdresse = this.textBoxAdresse.Text;
+            String textTitel = this.textBoxTitel.Text;
+            String textText = this.textBoxText.Text;
+            String textPasswort = this.textBoxPasswort.Text;
 
-            mailSenden.sendMail(textMailAdresse, textMail);
+            mailSenden.SendMail(textAdresse, textTitel, textText, textPasswort);
         }
     }
 }
