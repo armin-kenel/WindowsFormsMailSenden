@@ -12,7 +12,7 @@ namespace WindowsFormsMailSenden
         private const int HOST_PORT = 587;
         private const string MAIL_SENT = "Mail versandt.";
         private const string EMPTY = "";
-        private const string MAIL_ADDRESS_FOR_AUTHENTICATION = "dario.kenel@myemails.ch";
+        private const string MAIL_ADDRESS_FOR_AUTHENTICATION = "<valid mail address>";
         private const string SENDER_NAME = "Dario Kenel";
 
         public void SendMail(String adresse, String titel, String text, String password)
